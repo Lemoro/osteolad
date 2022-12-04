@@ -13,7 +13,7 @@
     </ul>
 </div>
 @endif
-<form  enctype="multipart/form-data" method="post" action="{{ route('about.update')}}"  id="form1" runat="server">
+<form  enctype="multipart/form-data" method="post" action="{{ route('about.update',0)}}"  id="form1" runat="server">
     @csrf
     @method('patch')
     <div class="mb-3">

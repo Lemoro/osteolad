@@ -87,7 +87,7 @@ class AboutController extends Controller
             ]
         );
 
-        return redirect()->route('about');
+        return redirect()->route('about.index');
     }
 
     /**
@@ -104,5 +104,9 @@ class AboutController extends Controller
 
         return view('adms.about.edit', $result);
     }
+
+    public function show(){}
+
+    public function destroy(){}
 
 }

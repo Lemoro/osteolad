@@ -13,9 +13,9 @@
     </ul>
 </div>
 @endif
-<form action="{{ route('contact.update')}}" enctype="multipart/form-data" id="form1" method="post" runat="server">
+<form action="{{ route('contact.update',0)}}" enctype="multipart/form-data" id="form1" method="post" runat="server">
     @csrf
-
+        @method('patch')
     <div class="mb-3">
         <label class="form-label" for="phones">
             Телефон(ы):

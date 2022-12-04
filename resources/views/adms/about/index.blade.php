@@ -37,7 +37,7 @@
 
     </div>
    @if (isset($about_text))
-    <a href="{{ route('about.edit') }}" class="btn btn-primary" name="save"  value="save">
+    <a href="{{ route('about.edit',0) }}" class="btn btn-primary" name="save"  value="save">
         Изменить
     </a>
     @else

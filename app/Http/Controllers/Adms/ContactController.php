@@ -62,4 +62,13 @@ class ContactController extends Controller
         return redirect()->route('contact.index');
     }
 
+    public function create(){}
+
+    public function store(){}
+
+    public function show(){}
+
+    public function destroy(){}
+
+
 }

@@ -30,7 +30,7 @@
   <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
 <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="{{ route('about') }}">О себе</a>
+    <a class="nav-link active" aria-current="page" href="{{ route('about.index') }}">О себе</a>
   </li>
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="{{ route('certificate.index') }}">Сертификаты</a>

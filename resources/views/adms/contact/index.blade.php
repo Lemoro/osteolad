@@ -23,7 +23,7 @@
     {{ $address??'' }}
 </div>
 <div class="mb-3">
-    <a class="btn btn-primary" href="{{ route('contact.edit') }}" name="save" value="save">
+    <a class="btn btn-primary" href="{{ route('contact.edit',0) }}" name="save" value="save">
         Изменить
     </a>
 </div>
